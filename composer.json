@@ -1,0 +1,8 @@
+{
+  "name": "andymayes/multi-environment-wp-config",
+  "description": "Multi-Environment WP Config",
+  "license": "proprietary",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
