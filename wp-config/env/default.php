@@ -54,6 +54,11 @@ $table_prefix = 'wp_';
  */
 define( 'WPLANG', '' );
 
+/**
+ * Custom Content Directory
+*/
+define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content' );
+define( 'WP_CONTENT_URL', $protocol . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 // Recommended WP config settings, uncomment to use these
 

@@ -32,9 +32,3 @@ define( 'DB_PASSWORD', WP_ENV_DB_PASSWORD );
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', true );
-
-/**
- * Custom Content Directory
-*/
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
-define( 'WP_CONTENT_URL', $protocol . $_SERVER['HTTP_HOST'] . '/wp-content' );
